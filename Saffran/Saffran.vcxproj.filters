@@ -27,9 +27,15 @@
     <ClInclude Include="src\Saffran\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Saffran\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Saffran\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Saffran\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
