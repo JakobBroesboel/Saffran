@@ -1,0 +1,6 @@
+﻿  SandboxApp.cpp
+C:\dev\Saffran\Sandbox\src\SandboxApp.cpp(21,14): error C2556: 'Saffran::Application Saffran::CreateApplication(void)': overloaded function differs only by return type from 'Saffran::Application *Saffran::CreateApplication(void)'
+      C:\dev\Saffran\Saffran\src\Saffran\Application.h(16,15):
+      see declaration of 'Saffran::CreateApplication'
+  
+C:\dev\Saffran\Sandbox\src\SandboxApp.cpp(21,14): error C2040: 'Saffran::CreateApplication': 'Saffran::Application (void)' differs in levels of indirection from 'Saffran::Application *(void)'
