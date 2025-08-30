@@ -4,6 +4,9 @@
     <Filter Include="Saffran">
       <UniqueIdentifier>{E65895E2-5238-147E-5B50-9F54C7AE7ADF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Saffran\Events">
+      <UniqueIdentifier>{0A46BD38-F613-B13E-DFA7-2165CB148DA3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Saffran.h" />
@@ -16,9 +19,22 @@
     <ClInclude Include="src\Saffran\EntryPoint.h">
       <Filter>Saffran</Filter>
     </ClInclude>
+    <ClInclude Include="src\Saffran\Events\ApplicationEvent.h">
+      <Filter>Saffran\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Saffran\Events\Event.h">
+      <Filter>Saffran\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Saffran\Events\KeyEvent.h">
+      <Filter>Saffran\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Saffran\Events\MouseEvent.h">
+      <Filter>Saffran\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Saffran\Log.h">
       <Filter>Saffran</Filter>
     </ClInclude>
+    <ClInclude Include="src\sfpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Saffran\Application.cpp">
@@ -27,5 +43,6 @@
     <ClCompile Include="src\Saffran\Log.cpp">
       <Filter>Saffran</Filter>
     </ClCompile>
+    <ClCompile Include="src\sfpch.cpp" />
   </ItemGroup>
 </Project>

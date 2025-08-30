@@ -1,3 +1,4 @@
+#include "sfpch.h"
 #include "Application.h"
 
 namespace Saffran {
